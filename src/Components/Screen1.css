@@ -1,0 +1,256 @@
+.background{
+    background-color:white;
+    height: 100vh;
+    /* color: dee; */
+  }
+  
+  
+  .pageHeadline{
+    margin-left: 1%;
+  }
+  
+  
+  .dataCards{
+    width: 15%;
+    text-align: center;
+    margin-left: 4%;
+    /* border-radius: 30px !important; */
+    /* background-color: deepskyblue; */
+  }
+
+  .cardBody{
+    color: white !important;
+    color:skyblue;
+  }
+  
+  .bar1{
+    width: 11cm;
+    /* margin-left: 40%; */
+  }
+  .bar2{
+    width: 11cm;
+    margin-left: 7%;
+  }
+  .refferalsCard{
+    width: 9cm;
+    margin-top: 10%;
+  }
+  .mapCard{
+    width: 12.9cm;
+    margin-left: 7%;
+    margin-top: 8%;
+    height: 6.4cm !important;
+    /* margin-bottom: 10% */
+  }
+  .DivisionsCard{
+    width: 11.1cm;
+  margin-left: 14%;
+  }
+  
+  
+  .userIcon{
+    color:skyblue ;
+  }
+  
+  .refferalData{
+    margin-top: 3% !important;
+  }
+  
+  
+  .mapImg{
+  height: 5.2cm;
+  }
+  
+  .subCard{
+    background-color:dodgerblue  !important;
+  width: 52mm;
+  }
+  .subCard1{
+    background-color:dodgerblue  !important;
+  width: 33mm;
+  }
+  .subCard2{
+    background-color:dodgerblue  !important;
+  width: 14mm;
+  }
+  .subCard3{
+    background-color:dodgerblue  !important;
+  width: 49mm;
+  }
+  .subCard4{
+    background-color:dodgerblue  !important;
+  width: 29mm;
+  }
+  .subCard5{
+    background-color:dodgerblue  !important;
+  width: 21mm;
+  }
+  .subCard6{
+    background-color:dodgerblue  !important;
+  width: 37mm;
+  }
+  .subCard7{
+    background-color:dodgerblue  !important;
+  width: 27mm;
+  }
+  .subCard8{
+    background-color:dodgerblue  !important;
+  width: 48mm;
+  }
+  .subCard9{
+    background-color:dodgerblue  !important;
+  width: 36mm;
+  }
+  .subCard10{
+    background-color:dodgerblue  !important;
+  width: 41mm;
+  }
+  
+  .firdtBlock{
+    display: flex;
+    flex-direction: row;
+  }
+  .secondBlock{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .mainBlock{
+    display: flex;
+    flex-direction: row;
+    margin-left: 4%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+  }
+  
+  .background1{
+    /* height: 100vh; */
+    /* width: 100vw; */
+    background-color: white;
+    overflow-x: hidden;
+  }
+  
+  
+
+
+  .dateIcon{
+    color: deepskyblue;
+      }
+      .doctorIcon{
+        color:orangered;
+        margin-left: 1%;
+          }  
+          .medicalIcon{
+            color: red;
+            margin-left: 66%;
+              }           
+  @media (max-width:1410px){
+    .medicalIcon{
+        color: red;
+        margin-left: 60%;
+          }
+           }
+  @media (max-width:1200px){
+        .medicalIcon{
+         color: red;
+        margin-left: 50%;
+     }
+   }
+   @media (max-width:950px){
+    .medicalIcon{
+     color: red;
+    margin-left: 40%;
+ }
+}
+@media (max-width:780px){
+    .medicalIcon{
+     color: red;
+    margin-left: 30%;
+ }
+}
+@media (max-width:660PX){
+    .medicalIcon{
+     color: red;
+    margin-left: 10%;
+ }
+}
+@media (max-width:510PX){
+    .medicalIcon{
+     color: red;
+    margin-left: 01%;
+ }
+}
+.firstRow{
+    display: flex;
+    flex-direction: row;
+  }
+
+.firstRow1{
+    display: flex;
+    flex-direction: row;
+  }
+  @media (max-width:470PX){
+    .medicalIcon{
+display: none;   
+ }
+ .dateIcon{
+    display: none;   
+     }
+    
+    }
+
+    .dataCards1{
+        width: 70%;
+        text-align: center;
+        margin-left: 4%;
+        /* border-radius: 30px !important; */
+        /* background-color: deepskyblue; */
+      }
+    
+    @media (max-width:1200PX){
+        .firstRow1{
+            /* display: flex;
+            flex-direction: row; */
+            display: none;
+          }
+          .firstRow2{
+        margin-left: 5% !important;  
+        }
+        
+    }
+    @media (min-width:1201PX){
+        .firstRow2{
+display: none;
+        }
+    }
+    @media (max-width:1380PX){
+        .mainBlock{
+            display: flex;
+            flex-direction: column;
+            /* margin-left: 4%;
+            margin-top: 2%;
+            margin-bottom: 5%; */
+            align-items: center;
+          }
+          .DivisionsCard{
+            width: 11.1cm;
+          margin-left: 14%;
+          margin-top: 3%;
+          }
+        
+        }        
+        @media (max-width:1000PX){
+            .firdtBlock{
+                display: flex;
+                flex-direction: column;
+              }
+              .secondBlock{
+                display: flex;
+                flex-direction: column;
+              }
+              /* .refferalsCard{
+                width: 9cm;
+                margin-top: 10%;
+              } */
+            
+        }

@@ -1,38 +1,393 @@
 .App {
-  text-align: center;
+background-color: aliceblue;  
+height:100vh;
+width: 100vw;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbarsBG{
+  background-color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.img{
+padding-top: 0;
+    padding-bottom: 0;
+    font-size: 1.5rem;
+    font-weight: 300;
+    /* line-height: 50px; */
+    /* height: 62px; */
+    width: 120px;
+    background-repeat: no-repeat;
+    background-position: 0 center;
+    margin-right: 55px;
+    margin-left: 10%;
+    /* padding: 0.7%; */
   }
+
+
+  .navbar-nav .dropdown-menu {
+  background-color: black;
+  }
+
+  .tabs{
+/* height: 100% !important; */
+  }
+
+
+
+  .navtittles{
+    color: black;
+  }
+  .navtittles:hover{
+    color: gray;
+  }
+
+  /* .navtittles:active {
+    color: black !important;
+  }
+  .navtittles:focus {
+    color: black !important;
+  } */
+
+  .logout{
+    width: 100%;
+    background-color: black;
+    color: white;
+  }
+  .logout:hover{
+    background-color:rgb(52, 187, 240);
+  }
+
+  .card1{
+    width: 70%;
+    /* height: 50% !important; */
+    padding-bottom: 0%;
+    margin-left: 15%; 
+    /* margin-top: 10%; */
+    padding: 0%;
+  }
+
+  .subnav{
+  margin-right: 80%;
+  }
+
+
+.componentsbg{
+  background-color: aliceblue;
+  }
+
+
+
+
+.card{
+  /* margin-left: 20%; */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+ .allcards{
+  margin:0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.cardStyle{
+  width: 30%;
+  padding:5%;
+  margin-left: 2%;
+  margin-bottom: 2%;
+  border-color:  rgb(52, 187, 240) !important;   background-color: white !important;
+}
+
+.cardStyle:hover{
+/* opacity: 0.5; */
+background-color:  rgb(52, 187, 240) !important;
+}
+
+.pngButton{
+background-color: black;
+display:none;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+color: white;
+font-size: 16px;
+padding: 12px 24px;
+border: none;
+cursor: pointer;
+border-radius: 5px;
+text-align: center;
+  }
+
+  .png:hover +.pngButton{
+  display: block;
+}
+
+.col2 {
+  width: 300px;
+  height: 400px;
+  overflow-y: scroll;
+  scrollbar-color: rebeccapurple green;
+  scrollbar-width: thin;
+}
+
+
+
+
+.lastnav{
+  margin-top: -1%;
+}
+.lastnavLinks{
+  margin-left: 12%;
+}   
+.dropodown{ 
+  margin-left: 140%;
+}
+.mb-3{
+  background-color: rgb(52, 187, 240);
+  padding-top: 1.5%; 
+  padding-left: 14% !important;    
+}
+
+
+@media (max-width:1250px){
+  .dropodown{ 
+    margin-left: 70%;
+  } 
+}
+@media (max-width:500px){
+  .lastnavLinks{
+    margin-left: 0%;
+  }   
+  .dropodown{ 
+    margin-left: 0%;
+  } 
+
+}
+
+
+@media (max-width:600px){
+.mb-3{
+  background-color: rgb(52, 187, 240);
+  padding-top: 1.5%; 
+  padding-left: 0% !important;    
+}
+}
+
+/* .lastnavButtons:active{
+  background:rgb(52, 187, 240);
+} */
+.lastnavButtons:focus{
+background-color: rgb(52, 187, 240);
+}
+
+@media (min-width:800px){
+  .lastnavButtons{
+    width: 120%;
+  }
+}  
+
+.logo{
+  width:4.5cm;
+  /* padding:-40%; */
+  height: 2.6cm;
+  margin-left: -10%;
+}
+@media (max-width:1300px){
+  .logo{
+    width:3.8cm;
+    height: 2.0cm;
+    
+  }
+}  
+@media (max-width:1100px){
+  .logo{
+    width:2.8cm;
+    height: 1.5cm;
+  }
+}  
+@media (max-width:650px){
+  .logo{
+    width:2.0cm;
+    height: 1.1cm; 
+  }
+}  
+@media (max-width:460px){
+  .logo{
+    width:1.5cm;
+    height: 0.7cm; 
+  }
+}  
+
+.iconPosition{
+position: relative;
+top: -2px;
+/* left: 2px; */
+/* color: rgb(52, 187, 240); */
+}
+
+.navitems{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: flex-start;
+  margin-left: 0%;
+  /* display: none; */
 }
 
-.App-link {
-  color: #61dafb;
+.buttons{
+  width:80%;
+  text-align: start !important;
+  /* margin-bottom: 3%; */
+ }
+ .buttons:focus {     
+  background-color:rgb(52, 187, 240); 
+  /* color:rgb(52, 187, 240) ;    */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width:700px){
+  .navitems{
+  display: none;
   }
-  to {
-    transform: rotate(360deg);
+  .buttons1{
+border: none;
+margin-bottom: 5%;
+/* height: 100%; */
+  }
+  .btn-dark {
+    margin-left: -88%;
   }
 }
+@media (min-width:700px){
+  .navitems1{
+    display: none;
+    }  
+}
+
+.logo:hover{
+  display: none;
+}
+
+/* .dropdownButton{
+  margin-top: 10% !important;
+} */
+
+
+.dropdown-menu.show {
+  display: block;
+  margin-top: 50%;
+}
+
+
+.treeCard{
+display: flex;
+flex-direction: row;
+margin-left: 40%;
+/* margin-top: 10%; */
+}
+
+      
+.hCard{
+  width: 100%;
+  /* margin-left: 30%; */
+  border-bottom-left-radius: 20% !important;
+  height: 50px !important;
+  border-top-left-radius:  22% !important;
+  margin-bottom: -1%;
+  background-color: deepskyblue !important;
+  border-color: ghostwhite !important;
+}
+
+.hCard1{
+  width: 140%;
+  /* margin-left: 30%; */
+  border-bottom-left-radius: 23% !important;
+  height: 50px !important;
+  border-top-left-radius:  20% !important;
+  margin-bottom: -1%;
+  background-color: rgb(32, 147, 255) !important;
+  border-color: white !important;
+/* border-width: 5px !important; */
+}
+
+.hCard2{
+  width: 110%;
+  /* margin-left: 50%; */
+  border-bottom-left-radius: 20% !important;
+  height: 50px !important;
+  border-top-left-radius:  20% !important;
+  margin-bottom: 1%;
+  background-color: rgb(32, 147, 255) !important;
+  border-color: ghostwhite !important;
+
+}
+
+
+.hImg{
+  height: 55px;
+  border-radius: 100%;
+  width: 55px;
+  margin-left: -18%;
+  border: 3px solid white;
+padding-top: -30%;  /* border-right-color: red !important; */
+/* border-color: red !important; */
+}
+
+.hImg1{
+  height: 52px;
+  border-radius: 100%;
+  width: 50px;
+  margin-left: -25%;
+  border: 3px solid white;
+  /* border-right-color: red !important;
+border-color: aqua; */
+}
+
+.hImg2{
+  height: 50px;
+  border-radius: 100%;
+  width: 50px;
+  margin-left: -27%;
+  border: 3px solid white;
+  /* border-right-color: red !important;
+border-color: aqua; */
+}
+.p-tree .p-tree-container .p-treenode .p-treenode-content {
+  border-radius: 6px;
+  transition: box-shadow 1.2s;
+  padding: 0.5rem;
+  margin-left: 23%;
+}
+
+
+.p-tree-container {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  overflow: auto;
+  height: 520px;
+}
+                                                              
+.p-tree {
+  border: 1px solid #dee2e6;
+  background: #ffffff;
+  /* color: #495057; */
+  padding: 1.25rem;
+  border-radius: 6px;
+  background-color: aliceblue !important;
+}
+
+.p-treenode {
+  margin-left: 10% ;
+}
+
+
+
+/* .p-tree .p-tree-container .p-treenode 
+.p-treenode-content .p-tree-toggler:enabled:hover { */
+
+
+
+
+
+
